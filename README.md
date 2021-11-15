@@ -4,9 +4,9 @@
 -----------------
 **New Updates**
 ```diff
-+ 11Nov2021  Alphafold2_mmseqs2 supports now to complex predictions using Alphafold-multimer. 
-+            Advanced notebooks still offer the old complex predictions logic. 
-+            ColabFold can be installed locally using pip!
++ 11Nov2021  [AlphaFold2_mmseqs2] now uses Alphafold-multimer for complex (homo/hetero-oligomer) modeling.
++            Use [AlphaFold2_advanced] notebook for the old complex prediction logic. 
++ 11Nov2021  ColabFold can be installed locally using pip!
 + 14Nov2021  Template based predictions works again in the Alphafold2_mmseqs2 notebook.
 - 14Nov2021  WARNING "Single-sequence" mode in AlphaFold2_mmseqs2 and AlphaFold2_batch was broken 
 -            starting 11Nov2021. The MMseqs2 MSA was being used regardless of selection.
@@ -19,12 +19,12 @@
 | Notebooks | monomers | complexes | mmseqs2 | jackhmmer | templates   |
 | :-------- | -------  | --------- | ------- | --------- | ----------- |
 | [AlphaFold2_mmseqs2](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb) | Yes | Yes | Yes | No | Yes | 
-| [AlphaFold2_advanced](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/beta/AlphaFold2_advanced.ipynb) | Yes | Yes | Yes | Yes | No |
 | [AlphaFold2_batch](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/batch/AlphaFold2_batch.ipynb) | Yes | No | Yes | No | Yes | 
 | [RoseTTAFold](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/RoseTTAFold.ipynb) | Yes | No | Yes | No | No | 
 | [AlphaFold2](https://colab.research.google.com/github/deepmind/alphafold/blob/main/notebooks/AlphaFold.ipynb) (from Deepmind) | Yes | Yes | No | Yes | No | 
 ||
 | **OLD retired notebooks** | | | | | |
+| [AlphaFold2_advanced](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/beta/AlphaFold2_advanced.ipynb) | Yes | Yes | Yes | Yes | No |
 | [AlphaFold2_complexes](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2_complexes.ipynb) | No | Yes | No | No | No | 
 | [AlphaFold2_jackhmmer](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/beta/AlphaFold_wJackhmmer.ipynb) | Yes | No | Yes | Yes | No |
 | [AlphaFold2_noTemplates_noMD](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/verbose/alphafold_noTemplates_noMD.ipynb) |
